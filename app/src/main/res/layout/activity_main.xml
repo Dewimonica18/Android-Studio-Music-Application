@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="13dp"
+        android:paddingLeft="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/delagothicone"
+            android:textColor="@color/white"
+            android:text="HELLO."
+            android:textSize="30dp"
+            android:layout_marginTop="50pt"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/judul"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/delagothicone"
+            android:textColor="@color/white"
+            android:text="WELCOME TO LAGU NASIONAL PLAYLIST"
+            android:textSize="13dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/judul"
+            android:id="@+id/judul2"/>
+        <Button
+            android:layout_width="70pt"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:textSize="20dp"
+            android:fontFamily="@font/oswaldregular"
+            android:backgroundTint="@color/blue2"
+            android:layout_marginTop="94mm"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:id="@+id/getstarted"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by Dewi Monica"
+            android:layout_below="@id/getstarted"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lobster"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            android:id="@+id/develop"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

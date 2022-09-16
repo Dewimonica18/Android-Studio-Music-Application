@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:paddingTop="80pt"
+    tools:context=".MyMusicActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            style="@style/Divider"
+            android:id="@+id/line"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Garuda Pancasila"
+            android:drawableLeft="@drawable/music"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/oswaldregular"
+            android:id="@+id/lagu1"
+            tools:ignore="MissingConstraints" />
+        <View
+            style="@style/Divider"
+            android:id="@+id/line1"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            app:layout_constraintTop_toBottomOf="@id/lagu1"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indonesia Pusaka"
+            app:layout_constraintTop_toBottomOf="@id/line1"
+            android:drawableLeft="@drawable/music"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/oswaldregular"
+            android:id="@+id/lagu2"/>
+        <View
+            style="@style/Divider"
+            android:id="@+id/line2"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            app:layout_constraintTop_toBottomOf="@id/lagu2"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indonesia Raya"
+            app:layout_constraintTop_toBottomOf="@id/line2"
+            android:drawableLeft="@drawable/music"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/oswaldregular"
+            android:id="@+id/lagu3"/>
+        <View
+            style="@style/Divider"
+            android:id="@+id/line3"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            app:layout_constraintTop_toBottomOf="@id/lagu3"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maju Tak Gentar"
+            app:layout_constraintTop_toBottomOf="@id/line3"
+            android:drawableLeft="@drawable/music"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/oswaldregular"
+            android:id="@+id/lagu4"/>
+        <View
+            style="@style/Divider"
+            android:id="@+id/line4"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            app:layout_constraintTop_toBottomOf="@id/lagu4"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rayuan Pulau Kelapa"
+            app:layout_constraintTop_toBottomOf="@id/line4"
+            android:drawableLeft="@drawable/music"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/oswaldregular"
+            android:id="@+id/lagu5"/>
+        <View
+            style="@style/Divider"
+            android:id="@+id/line5"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            app:layout_constraintTop_toBottomOf="@id/lagu5"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
